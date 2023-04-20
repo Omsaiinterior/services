@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    margin: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.nav-bar {
+    background-color: rgb(216, 133, 255);
+    height: 100px;
+    border-radius: 0px 0px 200px 0px;
+    padding: 20px 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul  {
+    display: flex;
+}
+
+.btn-1{
+    padding: 10px;
+    border: none;
+    color: white;
+    
+    background-color: purple;
+}
+.btn-2{
+    background-color: rgba(255, 255, 255, 0.252);
+    color: purple;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.main-content{
+   
+    height: 80vh;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-1{
+    width: 50%;
+    margin-top:200px ;
+   
+    
+}
+.heading-1 p{
+   margin-top: 30px;
+}
+.sub-image img{
+    width: 350px;
+    padding-top:150px ;
+    
+}
+.heading-2{
+    width: 50%;
+    margin-top: 60px;
+
+
+}
+.heading-2 p{
+    margin-top:20px ;
+}
+.sub-image-2 img{
+    
+        width: 350px;
+       
+        
+}
+.heading-3{
+    width: 50%;
+    margin-top: 30px;
+
+}
+.heading-3 p{
+    margin-top:30px ;
+}
+
+.sub-image-3 img{
+    
+    width: 350px;
+    margin-top: 0px;
+    
+    
+}
+.heading-4{
+    width: 50%;
+    margin-top: 30px;
+
+}
+.heading-4 p{
+    margin-top:30px ;
+}
+
+.sub-image-4 img{
+    
+    width: 350px;
+    margin-top: 0px;
+    
+    
+}
+.companees{
+    height: 300px;
+    width:75vw ;
+    margin-top: 0px;
+    background-color: rgb(230, 222, 230);
+    display: flex;
+    align-items: center;
+}
+
+/* 
+.image-1{
+    width: 100px;
+}
+.image-2{
+    width: 180px;
+   
+}
+.image-3{
+    height: 200px;
+    
+} */
+
+
+.nav-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.221);
+    color: purple;
+    transition: 0.5s ease-in-out;
+
+}
+.btn-1:hover{
+    background-color: rgba(255, 255, 255, 0.174);
+    color:purple ;
+    transition:0.5s ease-in-out;
+
+    
+}
+.btn-2:hover{
+    background-color:rgb(128, 0, 128);
+    color:rgb(246, 245, 246) ;
+    transition: 0.5s ease-in-out;
+
+    
+}
